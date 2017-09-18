@@ -1,0 +1,63 @@
+title: Vanilla Framework
+intro: |
+  Vanilla is a simple extensible CSS framework, written in Sass, by the Ubuntu Web Team.
+
+links:
+  - text: See the docs
+    href: https://docs.vanillaframework.io/en/
+    attributes:
+      - positive
+
+  - text: Vanilla on GitHub
+    href: https://github.com/vanilla-framework/vanilla-framework
+    attributes:
+      - external
+
+features:
+  - title: Lightweight
+    image: https://assets.ubuntu.com/v1/fe40dc6a-pictogram_lightweight01b-dark.svg
+    description: Vanilla contains a responsive CSS grid, basic style for HTML elements and a selection of key useful patterns and utility classes that you can extend.
+
+  - title: Composable
+    image: https://assets.ubuntu.com/v1/ba665746-pictogram_extension01-dark.svg
+    description: Vanilla is designed to be composable — you can include the whole framework to avail of all styles or you can use only what you need for your specific project.
+
+  - title: Open source
+    image: https://assets.ubuntu.com/v1/bcf3db83-pictogram_opensource01-dark.svg
+    description: Anyone can contribute to Vanilla, improve it and extend it. All the code is available on GitHub and is licensed under LGPLv3 by Canonical.
+
+quick_start:
+  title: Quick start
+  content: |
+    <p>The recommended method of including Vanilla Framework in your project is via NPM. You can then simply include the framework in your SCSS files and compile.</p>
+    <p>For other methods, please see the <a href="https://docs.vanillaframework.io/en/">advanced usage docs.</a></p> </div>
+  code_snippet: |
+    npm install --save-dev vanilla-framework
+    export SASS_PATH=`pwd`/node_modules:${SASS_PATH}
+
+    // Add to your main build scss file the following line
+    @import 'vanilla-framework/scss/build'
+
+whos_using:
+  title: Who's using Vanilla
+  items:
+    - name: Canonical
+      image: https://assets.ubuntu.com/v1/5d6da5c4-logo-canonical-aubergine.svg
+
+    - name: Ubuntu
+      image: https://assets.ubuntu.com/v1/adac6928-ubuntu.svg
+
+    - name: Landscape
+      image: https://assets.ubuntu.com/v1/4a93b95f-landscape_black-orange_hex.svg
+
+    - name: MAAS
+      image: https://assets.ubuntu.com/v1/4cd5caa2-maas_black-orange_hex.svg
+
+    - name: Juju
+      image: https://assets.ubuntu.com/v1/2d41eab7-juju_black-orange_hex.svg
+
+  name: Ubuntu Core
+  image: https://assets.ubuntu.com/v1/5051e6e5-core_logo.svg
+
+footer:
+  copyright: © 2017 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.
